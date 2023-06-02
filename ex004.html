@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex004</title>
+    <style>
+        .botao{
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Registro de visitas</h1>
+    <button class="botao" onclick="botao()">Cadastra nova Pessoa</button>
+    <p id="resultado">Pessoas que passaram por aqui...</p>
+</body>
+<script>
+    function botao(){
+        var te1 = prompt("Nome da nova pessoa")
+        document.getElementById("resultado").innerHTML += "<br> &#x1F596 Acabei de cadastrar " + te1.bold() + " no sistema."
+    }
+</script>
+</html>

@@ -1,0 +1,42 @@
+body{
+    margin: auto;
+    background-color: rgb(81, 81, 221);
+}
+header{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+section{
+    max-width: 1200px;
+    border-radius: 20px;
+    background-color: white;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    box-shadow: 10px 10px 10px rgb(0, 0, 160);
+    padding-top: 20px;
+}
+.botao{
+    padding: 10px 20px;
+    background-color: aqua;
+    border: 0px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgb(0, 143, 143);
+}
+#nome{
+    margin-top: 50px;
+}
+footer{
+    text-align: center;
+    margin-top: 40px;
+}
+footer > h2{
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+#resultado{
+    display: flex;
+    gap: 10px;
+    color: green;
+}

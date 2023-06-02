@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex003</title>
+    <style>
+        .botao{
+            padding: 20px;
+            color: rgb(255, 255, 255);
+            background-color: black;
+        }
+        .p{
+            color: white;
+        }
+        body{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Somador de Números</h1>
+    <button class="botao" onclick="botao()">Clique para somar</button>
+    <br>
+    <p class="p">Clique no botao acima para somar</p>
+</body>
+<script>
+    function botao(){
+        var nr1 = Number (prompt ("Digite o segundo número:"))
+        var nr2 = Number(prompt ("Digite o primeiro número:"))
+        var soma = nr1 + nr2
+        console.log(soma)
+    }
+</script>
+</html>
